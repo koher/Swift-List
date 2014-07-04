@@ -1,5 +1,5 @@
 class List<T> : Sequence {
-	var elements: Array<T>
+	@final var elements: Array<T>
 	
 	init(_ elements: Array<T>) {
 		self.elements = elements
